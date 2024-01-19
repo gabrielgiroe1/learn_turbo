@@ -1,0 +1,12 @@
+<h1>Turbo Frames Example</h1>
+
+<!-- Button to trigger the reload -->
+<%# <%=link_to name="reload" data-turbo-frame="message_1"%> 
+<!-- Target element to be reloaded -->
+<div id="reloadTarget">
+  <%= render partial: 'content' %>
+</div>
+<hr>
+<%# <div id="reloadTarget">
+  <%= render partial: 'second' %>
+</div>
